@@ -1,4 +1,4 @@
-# oxfd.js
+# oxford.js
 
 JavaScript API wrapper for [Oxford Response](https://docs.oxfd.re).  
 Supports CommonJS, ESM, and TypeScript out of the box.
@@ -6,14 +6,14 @@ Supports CommonJS, ESM, and TypeScript out of the box.
 ## Install
 
 ```sh
-npm install oxfd.js
+npm install oxford.js
 ```
 
 ## Usage
 
 ### CommonJS (require)
 ```js
-const { OxfordAPI } = require("oxfd.js");
+const { OxfordAPI } = require("oxford.js");
 
 const api = new OxfordAPI({ serverKey: "your-api-key" });
 
@@ -23,7 +23,7 @@ const players = await api.getPlayers();
 
 ### ESM (import)
 ```js
-import OxfordAPI from "oxfd.js";
+import OxfordAPI from "oxford.js";
 
 const api = new OxfordAPI({ serverKey: "your-api-key" });
 
@@ -33,7 +33,7 @@ const players = await api.getPlayers();
 
 ### TypeScript
 ```ts
-import OxfordAPI, { ServerInfo, Player } from "oxfd.js";
+import OxfordAPI, { ServerInfo, Player } from "oxford.js";
 
 const api = new OxfordAPI({ serverKey: "your-api-key" });
 
@@ -117,7 +117,7 @@ import {
   RateLimitError,
   AuthError,
   ServerUnavailableError,
-} from "oxfd.js";
+} from "oxford.js";
 
 try {
   const players = await api.getPlayers();
