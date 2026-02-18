@@ -56,7 +56,7 @@ const api = new OxfordAPI({
 
 | Option | Type | Default | Description |
 |---|---|---|---|
-| `serverKey` | `string` | â | Your API key **(required)** |
+| `serverKey` | `string` | string | Your API key **(required)** |
 | `rateLimit` | `"auto"` \| `"none"` \| `number` | `"auto"` | `"auto"` = ~29 req/s with burst, `"none"` = unlimited, `number` = seconds between requests |
 | `maxRetries` | `number` | `3` | Times to retry on rate limit (429) |
 | `timeout` | `number` | `10000` | Request timeout in ms |
