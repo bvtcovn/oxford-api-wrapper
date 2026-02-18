@@ -136,9 +136,3 @@ try {
 
 ---
 
-## Publishing to npm
-
-```sh
-node build.js       # generates dist/
-npm publish         # publishes the dist/ folder
-```
